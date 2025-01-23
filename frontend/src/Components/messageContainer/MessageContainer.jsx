@@ -3,7 +3,7 @@ import MessageInput from './MessageInput'
 import { IoChatbubblesOutline } from "react-icons/io5";
 import { useConversation } from '../../zuzstant/useConversation';
 import { useEffect } from 'react';
-import { useAuthContext } from '../../context/authContext';
+import { useAuthContext } from "../context/AuthContext";
 
 const MessageContainer = () => {
    const {selectedConversation, setSelectedConversation } = useConversation()
